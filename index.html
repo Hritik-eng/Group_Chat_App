@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat app</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <div>
+            <img class="img" width="45vw" src="/wassup.png" alt="">
+        </div>
+        <div>
+            <p class="username" id="profile">?</p>
+        </div>
+        </div>
+        <div class="message__area">
+        </div>
+        <div class="text">
+            <textarea id="textarea" name =" " cols="1" placeholder="Write a message..."></textarea> 
+            <img src="send.png" id="send"/>
+        </div>
+    </section>
+    <script  src="/socket.io/socket.io.js"></script>
+    <script   src="/client.js"></script>
+</body>
+</html>
