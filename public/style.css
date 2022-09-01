@@ -35,17 +35,29 @@ h1{
     display: flex;
     align-items: center;
 }
+
+div #p{
+    color:black;
+}
+
+@media screen and (max-width: 800px){
+    div #p{
+        display: none;
+    }
+}
+
 .username{
+    padding-top:5px;
     text-align: center;
     font-size: large;
     font-weight: bold;
-    width:7vw;
+    width:8vw;
     height: 6vh;
     border:2px solid black;
     border-radius: 20vw;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .username{
         text-align: center;
         width:30vw;
