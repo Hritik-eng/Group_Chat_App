@@ -40,7 +40,7 @@ div #p{
     color:black;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     div #p{
         display: none;
     }
